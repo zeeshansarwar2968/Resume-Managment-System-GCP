@@ -1,0 +1,5 @@
+functions-framework==3.*
+
+google-api-core
+google-cloud-documentai
+google-cloud-storage
