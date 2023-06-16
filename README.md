@@ -22,15 +22,3 @@ google-cloud-storage
 ```
 google-cloud-bigquery
 ```
-## load_to_bigquery_cloud_function_2
-
-* Once the data is extracted from the file, the function stores it in BigQuery, a fully managed data warehouse provided by Google Cloud. BigQuery is highly scalable and allows for efficient storage and querying of large datasets.
-
-
-* These are the libraries used in this function
-```
-google-cloud-storage
-```
-```
-google-cloud-bigquery
-```
