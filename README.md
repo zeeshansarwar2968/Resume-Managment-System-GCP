@@ -22,3 +22,21 @@ google-cloud-storage
 ```
 google-cloud-bigquery
 ```
+
+
+## load_to_bigquery_cloud_function_2
+
+* The Cloud Function is designed to be triggered by changes in a Cloud Storage bucket, specifically when a new file is added. This event-based architecture ensures that the function is automatically executed whenever a new file is uploaded to the specified bucket.
+
+* The function uses the Google Cloud Document AI service to process the added file and extract relevant information. This leverages machine learning and natural language processing techniques to analyze the contents of the file and extract structured data from it.
+
+* Once the data is extracted from the file, the function stores it in BigQuery, a fully managed data warehouse provided by Google Cloud. BigQuery is highly scalable and allows for efficient storage and querying of large datasets.
+
+* These commands used in this code
+```
+google-cloud-storage
+```
+```
+google-cloud-bigquery libraries
+```
+
