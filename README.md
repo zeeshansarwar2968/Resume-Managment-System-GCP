@@ -8,5 +8,9 @@ Implementation of Resume Management System using Google Document AI In today's f
 * Once the data is extracted from the file, the function stores it in BigQuery, a fully managed data warehouse provided by Google Cloud. BigQuery is highly scalable and allows for efficient storage and querying of large datasets.
 
 * These commands used in this code
-`google-cloud-storage` 
-`google-cloud-bigquery libraries`
+```
+google-cloud-storage
+```
+```
+google-cloud-bigquery libraries
+```
